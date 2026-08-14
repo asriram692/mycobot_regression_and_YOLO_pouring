@@ -1,0 +1,29 @@
+# Python cache & build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# PyTorch & YOLO Model Weights (Ignores heavy .pth and .pt files)
+*.pth
+*.pt
+*.onnx
+*.weights
+*.h5
+
+# Raw images & dataset files
+*.jpg
+*.jpeg
+*.png
+!result_data_png/*.png
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS & IDE configuration metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
