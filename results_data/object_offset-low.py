@@ -13,29 +13,29 @@ TARGET_RADIUS_MM = 25.5
 gt_coords = {
     "Pos 1 (Top-L)": (192.2, 139.7),
     "Pos 2 (Top-R)": (331.8, 139.7),
-    "Pos 4 (Mid-L)": (242.89, 12.7),
-    "Pos 5 (Mid-R)": (351.01, 12.7),
-    "Pos 6 (Bot-L)": (193.67, -193.67),
-    "Pos 7 (Bot-R)": (318.77, -193.67),
+    "Pos 3 (Mid-L)": (242.89, 12.7),
+    "Pos 4 (Mid-R)": (351.01, 12.7),
+    "Pos 5 (Bot-L)": (193.67, -193.67),
+    "Pos 6 (Bot-R)": (318.77, -193.67),
 }
 
 # Recorded offsets from center for Hardcoded baseline (Lower Lighting)
 hardcoded_table_offsets = {
     "Pos 2 (Top-R)": (7, 7.83),
-    "Pos 4 (Mid-L)": (6.8, 2.1),
-    "Pos 5 (Mid-R)": (-6.63, 10),
-    "Pos 6 (Bot-L)": (-12.2, 4.5),
-    "Pos 7 (Bot-R)": (-13.9, 4.16),
+    "Pos 3 (Mid-L)": (6.8, 2.1),
+    "Pos 4 (Mid-R)": (-6.63, 10),
+    "Pos 5 (Bot-L)": (-12.2, 4.5),
+    "Pos 6 (Bot-R)": (-13.9, 4.16),
 }
 
 # Recorded offsets from center for Neural Network trials (Lower Lighting)
 nn_table_offsets = {
     "Pos 1 (Top-L)": [(33, 11.6), (32, 11.5), (8.5, 18.2)],
     "Pos 2 (Top-R)": [(2.2, 3.3), (2, 2.3), (1.5, 5.8)],
-    "Pos 4 (Mid-L)": [(34, 14), (18.5, 18), (24, 10)],
-    "Pos 5 (Mid-R)": [(6.2, 18.3), (2.2, 1), (2, 0)],
-    "Pos 6 (Bot-L)": [(15.2, 17.3), (16.2, 21.7), (16.4, 16.2)],
-    "Pos 7 (Bot-R)": [(3.2, 9.5), (5, 5), (11.05, -15.49)],
+    "Pos 3 (Mid-L)": [(34, 14), (18.5, 18), (24, 10)],
+    "Pos 4 (Mid-R)": [(6.2, 18.3), (2.2, 1), (2, 0)],
+    "Pos 5 (Bot-L)": [(15.2, 17.3), (16.2, 21.7), (16.4, 16.2)],
+    "Pos 6 (Bot-R)": [(3.2, 9.5), (5, 5), (11.05, -15.49)],
 }
 
 fig, ax = plt.subplots(figsize=(10, 7.5))
